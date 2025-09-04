@@ -9,19 +9,31 @@
 - **Chat List**  
   View dummy conversations with participant names, last messages, and timestamps.
 
+<img width="1904" height="930" alt="image" src="https://github.com/user-attachments/assets/3b3a71eb-aa31-4209-ac8d-a37f9f0bfc0b" />
+
 - **Chat Window**  
   Display conversation threads with AI-powered buttons for:  
   - **Summarize Thread** → Shows a dummy summary of the conversation.  
   - **Smart Reply Suggestion** → Displays a placeholder suggested reply.
 
+ <img width="1901" height="912" alt="image" src="https://github.com/user-attachments/assets/055cf973-7389-49db-8d6f-0320fb286d8e" />
+
+
 - **New Chat**  
   Start a new conversation by entering a participant's name and generate AI-powered icebreakers with a single button.
 
----
+<img width="1896" height="917" alt="image" src="https://github.com/user-attachments/assets/bba9b6a9-a1c9-4f58-99aa-502b3da04109" />
+
+<img width="1901" height="912" alt="image" src="https://github.com/user-attachments/assets/055cf973-7389-49db-8d6f-0320fb286d8e" />
+
+
+- **By Searching**
+  
+<img width="1905" height="914" alt="image" src="https://github.com/user-attachments/assets/b50956af-4f5a-4f38-bab3-d4286c3ca0f5" />
 
 ## 💻 Tech Stack
 
-- **Frontend:** React (Web) or React Native (Mobile)  
+- **Frontend:** React (Web)   
 - **Data:** JSON-based dummy chat data  
 
 ---
@@ -49,8 +61,10 @@ This project is an **intern task prototype** aimed at demonstrating:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/smart-team-chat.git
-Navigate to the project folder:
+git clone https://github.com/styloraushan/Smart-Team-Chat.git
+
+
+Navigate to the project folder:**
 
 cd smart-team-chat
 Install dependencies:
@@ -61,10 +75,7 @@ Start the project:
 For React (Web):
 
 npm start
-For React Native:
 
-npm run android   # or
-npm run ios
 📁 Project Structure
 smart-team-chat/
 │
@@ -75,8 +86,7 @@ smart-team-chat/
 │
 ├─ public/           # Static files
 └─ package.json
-📅 Deadline
-September 5, 2025, 11:59:59 PM
+
 Aligned with WorkElate: OS & Collaboration
 
 ⚡ Contribution
