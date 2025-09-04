@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Smart Team Chat UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Smart Team Chat** is a minimal **React/React Native prototype** demonstrating how AI can enhance team communication. This project focuses on **UI/UX and AI-first features** such as smart reply suggestions, thread summaries, and icebreaker generation — all using placeholders without real backend integration.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📝 Features
 
-### `npm start`
+- **Chat List**  
+  View dummy conversations with participant names, last messages, and timestamps.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Chat Window**  
+  Display conversation threads with AI-powered buttons for:  
+  - **Summarize Thread** → Shows a dummy summary of the conversation.  
+  - **Smart Reply Suggestion** → Displays a placeholder suggested reply.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **New Chat**  
+  Start a new conversation by entering a participant's name and generate AI-powered icebreakers with a single button.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Tech Stack
 
-### `npm run build`
+- **Frontend:** React (Web) or React Native (Mobile)  
+- **Data:** JSON-based dummy chat data  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎯 Objective
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is an **intern task prototype** aimed at demonstrating:  
+- Modern chat UI/UX design  
+- AI-first features for enhanced team communication  
+- Lightweight, easy-to-extend architecture  
 
-### `npm run eject`
+> Note: This prototype focuses on design and AI placeholders only. No backend or real-time chat functionality is implemented.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Node.js & npm installed  
+- (For React Native) Expo CLI or React Native CLI installed  
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/yourusername/smart-team-chat.git
+Navigate to the project folder:
 
-### Code Splitting
+cd smart-team-chat
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm install
+Start the project:
 
-### Analyzing the Bundle Size
+For React (Web):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm start
+For React Native:
 
-### Making a Progressive Web App
+npm run android   # or
+npm run ios
+📁 Project Structure
+smart-team-chat/
+│
+├─ src/
+│   ├─ components/   # UI components (ChatList, ChatWindow, NewChat)
+│   ├─ data/         # Dummy JSON chat data
+│   └─ App.js        # Main app entry
+│
+├─ public/           # Static files
+└─ package.json
+📅 Deadline
+September 5, 2025, 11:59:59 PM
+Aligned with WorkElate: OS & Collaboration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⚡ Contribution
+This is a personal intern project, contributions are welcome for UI improvements and AI feature mockups.
