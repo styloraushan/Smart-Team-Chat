@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Smart Team Chat UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Smart Team Chat** is a minimal **React/React Native prototype** demonstrating how AI can enhance team communication. This project focuses on **UI/UX and AI-first features** such as smart reply suggestions, thread summaries, and icebreaker generation — all using placeholders without real backend integration.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📝 Features
 
-### `npm start`
+- **Chat List**  
+  View dummy conversations with participant names, last messages, and timestamps.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="1904" height="930" alt="image" src="https://github.com/user-attachments/assets/3b3a71eb-aa31-4209-ac8d-a37f9f0bfc0b" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Chat Window**  
+  Display conversation threads with AI-powered buttons for:  
+  - **Summarize Thread** → Shows a dummy summary of the conversation.  
+  - **Smart Reply Suggestion** → Displays a placeholder suggested reply.
 
-### `npm test`
+ <img width="1901" height="912" alt="image" src="https://github.com/user-attachments/assets/055cf973-7389-49db-8d6f-0320fb286d8e" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+- **New Chat**  
+  Start a new conversation by entering a participant's name and generate AI-powered icebreakers with a single button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="1896" height="917" alt="image" src="https://github.com/user-attachments/assets/bba9b6a9-a1c9-4f58-99aa-502b3da04109" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1901" height="912" alt="image" src="https://github.com/user-attachments/assets/055cf973-7389-49db-8d6f-0320fb286d8e" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+- **By Searching**
+  
+<img width="1905" height="914" alt="image" src="https://github.com/user-attachments/assets/b50956af-4f5a-4f38-bab3-d4286c3ca0f5" />
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Frontend:** React (Web)   
+- **Data:** JSON-based dummy chat data  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎯 Objective
 
-## Learn More
+This project is an **intern task prototype** aimed at demonstrating:  
+- Modern chat UI/UX design  
+- AI-first features for enhanced team communication  
+- Lightweight, easy-to-extend architecture  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> Note: This prototype focuses on design and AI placeholders only. No backend or real-time chat functionality is implemented.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+- Node.js & npm installed  
+- (For React Native) Expo CLI or React Native CLI installed  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Installation
 
-### Making a Progressive Web App
+1. Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git clone https://github.com/styloraushan/Smart-Team-Chat.git
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Navigate to the project folder:**
 
-### Deployment
+cd smart-team-chat
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm install
+Start the project:
 
-### `npm run build` fails to minify
+For React (Web):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+
+📁 Project Structure
+smart-team-chat/
+│
+├─ src/
+│   ├─ components/   # UI components (ChatList, ChatWindow, NewChat)
+│   ├─ data/         # Dummy JSON chat data
+│   └─ App.js        # Main app entry
+│
+├─ public/           # Static files
+└─ package.json
+
+Aligned with WorkElate: OS & Collaboration
+
+⚡ Contribution
+This is a personal intern project, contributions are welcome for UI improvements and AI feature mockups.
